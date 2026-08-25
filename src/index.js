@@ -313,7 +313,7 @@ function updateScore() {
 function updateScore() {
   document.getElementById("score").textContent = score;
 
-  || Update high score if current score exceeds it
+  // Update high score if current score exceeds it
   if (score > highScore) {
     highScore = score;
     document.getElementById("high-score").textContent = highScore;
